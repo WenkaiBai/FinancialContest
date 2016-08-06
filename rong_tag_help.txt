@@ -1,0 +1,2 @@
+user_id:用户ID
+rong_tag:应用ID

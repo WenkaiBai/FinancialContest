@@ -1,0 +1,6 @@
+user1_id:用户1的id
+user2_id:用户2的id
+relation2_type:关系类型
+relation2_weight:关系权重
+time:时间(部分数据缺失)
+

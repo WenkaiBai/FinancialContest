@@ -1,0 +1,61 @@
+﻿user_id:用户ID
+0. age：年龄，NONE代表本次记录用户未填写该信息 missing:1(Continuous
+1. sex：性别,0代表本次记录用户未填写该信息 missing:1 (discrete
+2. expect_quota:申请金额 missing:9  (Continuous
+3. max_month_repay：最大月还款 missing 29103/38261 (Continuous
+4. occupation:职业类型 0 (discrete
+5. education：教育程度 0 (discrete
+6. marital_status: 婚姻状态 2 (discrete
+7. live_info：房屋类型 9175 (discrete
+8. local_hk：户口类型 9175 (discrete
+9. money_function：贷款用途 28350 (discrete
+10. company_type：公司类型 17039 (discrete
+11. salary：薪水 5899 (Continuous
+12. school_type：学校类型 38153 (discrete (remove)
+13. flow：月盈利余额 35476 (Continuous
+14. gross_profit：毛利润率 38261 (Continuous
+15. business_type：营业类别 35472 (discrete
+16. business_year：营业年限 35469 (Continuous
+17. personnel_num：公司规模 （删） 35472 (Continuous
+18. pay_type：收入类型 （是否。。）31123
+19. product_id：产品ID (频率）(discrete
+recode_time：记录时间 (remove)
+
+各表示状态或类型字段中：0代表本次记录用户未填写该信息，空值代表本产品不需要填写该项
+具体字段包括：sex，
+occupation，
+education，
+marital_status，
+live_info，
+local_hk，
+money_function，
+company_type，
+school_type，
+business_type，
+business_year，
+personnel_num，
+pay_type。
+
+NA为异常值（适用于所有字段）
+
+        age = fields[1]
+        sex = fields[2]
+        expect_quota = fields[3]
+        max_month_repay = fields[4]
+        occupation = fields[5]
+        education = fields[6]
+        marital_status = fields[7]
+        live_info = fields[8]
+        local_hk = fields[9]
+        money_function = fields[10]
+        company_type = fields[11]
+        salary = fields[12]
+        school_type = fields[13]
+        flow = fields[14]
+        gross_profit = fields[15]
+        business_type = fields[16]
+        business_year = fields[17]
+        personnel_num = fields[18]
+        pay_type = fields[19]
+        product_id = fields[20]
+        recode_time = fields[21]
